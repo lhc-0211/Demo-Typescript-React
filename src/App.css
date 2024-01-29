@@ -30,10 +30,24 @@
   0% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(10px);
   }
+
   100% {
     transform: translateY(0px);
   }
+}
+
+.form-group {
+  padding: 10px;
+}
+
+.form-group label {
+  margin-right: 5px;
+}
+
+button {
+  margin: 10px;
 }
